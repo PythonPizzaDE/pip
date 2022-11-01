@@ -114,6 +114,7 @@ setup(
     version="2.0.0",
     classifiers=[],
     python_requires=">=3.7, <4",
+    packages=find_packages(where="src"),
     extras_require={{
         "dev": ["check-manifest"],
         "test": ["coverage"],
